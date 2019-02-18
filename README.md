@@ -1,4 +1,4 @@
-# rc-slider
+# rc-slider-reversible
 ---
 
 Slider UI component for React
