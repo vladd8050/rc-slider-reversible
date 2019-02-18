@@ -1,4 +1,4 @@
-# rc-slider-reversible
+# rc-slider-reversible (frork from rc-slider)
 ---
 
 Slider UI component for React
@@ -11,7 +11,7 @@ Slider UI component for React
 [![npm download][download-image]][download-url]
 
 [npm-image]: http://img.shields.io/npm/v/rc-slider.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/rc-slider
+[npm-url]: http://npmjs.org/package/rc-slider-reversible
 [travis-image]: https://img.shields.io/travis/react-component/slider.svg?style=flat-square
 [travis-url]: https://travis-ci.org/react-component/slider
 [coveralls-image]: https://img.shields.io/coveralls/react-component/slider.svg?style=flat-square
@@ -41,17 +41,15 @@ Slider UI component for React
 ## Install
 
 ```bash
-npm install --save rc-slider
+npm install --save rc-slider-reversible
 ```
-
-[![rc-slider](https://nodei.co/npm/rc-slider.png)](https://npmjs.org/package/rc-slider)
 
 ## Usage
 
 ````js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Slider, { Range } from 'rc-slider';
+import Slider, { Range } from 'rc-slider-reversible';
 // We can just import Slider or Range to reduce bundle size
 // import Slider from 'rc-slider/lib/Slider';
 // import Range from 'rc-slider/lib/Range';
@@ -73,7 +71,7 @@ ReactDOM.render(
 An extension to make Slider or Range support Tooltip on handle.
 
 ```jsx
-const Slider = require('rc-slider');
+const Slider = require('rc-slider-reversible');
 const createSliderWithTooltip = Slider.createSliderWithTooltip;
 const Range = createSliderWithTooltip(Slider.Range);
 ```
@@ -149,10 +147,6 @@ Online examples: [http://react-component.github.io/slider/](http://react-compone
 
 `http://localhost:8005/tests/runner.html?coverage`
 
-## Coverage
-
-`http://localhost:8005/node_modules/rc-server/node_modules/node-jscover/lib/front-end/jscoverage.html?w=http://localhost:8088/tests/runner.html?coverage`
-
 ## License
 
-`rc-slider` is released under the MIT license.
+`rc-slider-reversible` is released under the MIT license.
