@@ -13,7 +13,7 @@
   "homepage": "https://github.com/vladd8050/rc-slider-reversible",
   "repository": {
     "type": "git",
-    "url": "git@github.com:vladd8050/rc-slider-reversible.git"
+    "url": "git+https://github.com/vladd8050/rc-slider-reversible.git"
   },
   "bugs": {
     "url": "https://github.com/vladd8050/rc-slider-reversible/issues"
