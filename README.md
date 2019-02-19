@@ -4,24 +4,12 @@
 Slider UI component for React
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][coveralls-image]][coveralls-url]
-[![gemnasium deps][gemnasium-image]][gemnasium-url]
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: http://img.shields.io/npm/v/rc-slider.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/rc-slider-reversible
-[travis-image]: https://img.shields.io/travis/react-component/slider.svg?style=flat-square
-[travis-url]: https://travis-ci.org/react-component/slider
-[coveralls-image]: https://img.shields.io/coveralls/react-component/slider.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/react-component/slider?branch=master
-[gemnasium-image]: http://img.shields.io/gemnasium/react-component/slider.svg?style=flat-square
-[gemnasium-url]: https://gemnasium.com/react-component/slider
-[node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
-[download-image]: https://img.shields.io/npm/dm/rc-slider.svg?style=flat-square
-[download-url]: https://npmjs.org/package/rc-slider
+[download-url]: https://npmjs.org/package/rc-slider-reversible
 
 ## Screenshots
 
@@ -51,9 +39,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Slider, { Range } from 'rc-slider-reversible';
 // We can just import Slider or Range to reduce bundle size
-// import Slider from 'rc-slider/lib/Slider';
-// import Range from 'rc-slider/lib/Range';
-import 'rc-slider/assets/index.css';
+// import Slider from 'rc-slider-reversible/lib/Slider';
+// import Range from 'rc-slider-reversible/lib/Range';
+import 'rc-slider-reversible/assets/index.css';
 
 ReactDOM.render(
   <div>
@@ -105,8 +93,8 @@ The following APIs are shared by Slider and Range.
 | onBeforeChange | Function | NOOP | `onBeforeChange` will be triggered when `ontouchstart` or `onmousedown` is triggered. |
 | onChange | Function | NOOP | `onChange` will be triggered while the value of Slider changing. |
 | onAfterChange | Function | NOOP | `onAfterChange` will be triggered when `ontouchend` or `onmouseup` is triggered. |
-| minimumTrackStyle | Object |  | please use  `trackStyle` instead. (`only used for slider, just for compatibility , will be deprecate at rc-slider@9.x `) |
-| maximumTrackStyle | Object |  | please use  `railStyle` instead (`only used for slider, just for compatibility , will be deprecate at rc-slider@9.x`) |
+| minimumTrackStyle | Object |  | please use  `trackStyle` instead. (`only used for slider, just for compatibility , will be deprecate at rc-slider-reversible@9.x `) |
+| maximumTrackStyle | Object |  | please use  `railStyle` instead (`only used for slider, just for compatibility , will be deprecate at rc-slider-reversible@9.x`) |
 | handleStyle | Array[Object] \| Object | `[{}]` | The style used for handle. (`both for slider(`Object`) and range(`Array of Object`), the array will be used for mutli handle follow element order`) |
 | trackStyle | Array[Object] \| Object | `[{}]` | The style used for track. (`both for slider(`Object`) and range(`Array of Object`), the array will be used for mutli track follow element order`)|w
 | railStyle | Object | `{}` | The style used for the track base color.  |
